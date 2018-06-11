@@ -13,5 +13,8 @@ d3.select("ul").selectAll("li")
 .data(dataset)
 .enter()
 .append("li")
-.text("New item");
+.text("New item")
+.style("color", d => d >= 20 ? "red" : "blue");
 ```
+
+
