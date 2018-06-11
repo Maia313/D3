@@ -2,11 +2,11 @@
 
 ### Methods
 
-+ select();
-+ append();
-+ text();
-+ selectAll();
-+ selection.text((d) => d);
++ `select()`;
++ `append()`;
++ `text()`;
++ `selectAll()`;
++ `selection.text((d) => d)`;
 
 ```js
 d3.select("ul").selectAll("li")
